@@ -1,6 +1,5 @@
 import React from "react";
 import "../styles/result.css"
-import { redirect } from "react-router-dom";
 
 type ResultProps = {
     name: string;

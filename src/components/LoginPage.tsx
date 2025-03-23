@@ -13,15 +13,15 @@ const LoginScreen: React.FC = () => {
       localStorage.setItem("userName", name);
       localStorage.setItem("location", location);
 
-      
+
       setIsFadingOut(true);
 
-      
+
       setTimeout(() => {
-        navigate("/quiz-start");
-      }, 500); 
+        navigate("/quiz");
+      }, 500);
     } else {
-      alert("Please enter your name and roll number.");
+      alert("Please enter your name and the country where you live.");
     }
   };
 
@@ -47,11 +47,11 @@ const LoginScreen: React.FC = () => {
             placeholder="Where Are You From?"
           />
         </label>
-        
+
         <button onClick={
           () => {
             handleLogin()
-          }}>Start Quiz</button>
+          }}>Enter</button>
 
       </div>
     </div>

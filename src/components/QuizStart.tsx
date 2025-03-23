@@ -33,7 +33,7 @@ const QuizStart: React.FC<QuizStartProps> = ({
     return (
         <>
             <div className="quiz-start">
-                <h2>Prepare For Yourself</h2>
+                <h2>Prepare your test</h2>
                 <label>
                     Number of Questions (Min 10, Max {quizListLength}):
                     <input
@@ -44,7 +44,7 @@ const QuizStart: React.FC<QuizStartProps> = ({
                         onChange={(e) => { onNumQuestionsChange(Number(e.target.value)) }}
                     />
                 </label>
-                <label>
+                <label title="After selecting an option for the question you will not given second chance to select any other option and it will submit itself.">
                     Strict Mode:
                     <input
                         type="checkbox"
