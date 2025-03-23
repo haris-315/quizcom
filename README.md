@@ -2,7 +2,7 @@
 
 A simple yet engaging **MCQ-based quiz application** built during the early stages of my **React journey**. This is my second React project, designed to enhance the user experience with multiple quiz customization options.  
 
-🔗 **Live Demo**: [**Coming Soon**](#) *(Replace with your actual URL)*  
+🔗 **Live Demo**: [**quizcom.surge.sh**](quizcom.surge.sh)
 
 ---
 
