@@ -22,7 +22,7 @@ A simple yet engaging **MCQ-based quiz application** built during the early stag
 - 📜 **JavaScript (ES6+)** – Core logic  
 - 🎨 **CSS** – Styling  
 
----
+
 
 ## 📷 Screenshots  
 [![preview alt](src/assets/p1.png)](https://quizcom.surge.sh)
