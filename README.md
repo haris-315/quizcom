@@ -2,7 +2,7 @@
 
 A simple yet engaging **MCQ-based quiz application** built during the early stages of my **React journey**. This is my second React project, designed to enhance the user experience with multiple quiz customization options.  
 
-🔗 **Live Demo**: [**quizcom.surge.sh**](quizcom.surge.sh)
+🔗 **Live Demo**: [**quizcom.surge.sh**](https://quizcom.surge.sh)
 
 ---
 
@@ -25,11 +25,11 @@ A simple yet engaging **MCQ-based quiz application** built during the early stag
 ---
 
 ## 📷 Screenshots  
-[![preview alt](src/assets/p1.png)]((https://twear-web.surge.sh))
+[![preview alt](src/assets/p1.png)](https://quizcom.surge.sh)
 
-[![preview alt](src/assets/p2.png)]((https://twear-web.surge.sh))
+[![preview alt](src/assets/p2.png)](https://quizcom.surge.sh)
 
-[![preview alt](src/assets/p3.png)]((https://twear-web.surge.sh))
+[![preview alt](src/assets/p3.png)](https://quizcom.surge.sh)
 ## 🏗 Setup & Installation  
 
 1. Clone the repository:  
