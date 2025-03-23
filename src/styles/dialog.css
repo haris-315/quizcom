@@ -1,0 +1,58 @@
+.confirmation-dialog {
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+    padding: 24px;
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    margin: auto;
+}
+
+.dialog-title {
+    font-size: 1.5rem;
+    color: #333333;
+    margin-bottom: 20px;
+}
+
+.dialog-buttons {
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+}
+
+.dialog-button {
+    flex: 1;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.dialog-button.see-result {
+    background-color: #6c757d;
+    color: #ffffff;
+}
+
+.dialog-button.see-result:hover {
+    background-color: #5a6268;
+    transform: translateY(-2px);
+}
+
+.dialog-button.solve-skipped {
+    background-color: #28a745;
+    color: #ffffff;
+}
+
+.dialog-button.solve-skipped:hover {
+    background-color: #218838;
+    transform: translateY(-2px);
+}
+
+.dialog-button:active {
+    transform: translateY(0);
+}

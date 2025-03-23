@@ -1,0 +1,54 @@
+/* Result Container */
+.result-container {
+  max-width: 600px;
+  width: 90%;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0px 8px 10px var(--secondary-color);
+  text-align: center;
+  color: white;
+}
+
+
+.result-container h2 {
+  font-family: 'Algerian';
+  color: var(--text-color);
+  margin-bottom: 20px;
+}
+
+/* .result-container p {
+  color: var(--text-color);
+  padding: 6px;
+  margin: 2px;
+  background-color: #2c3e50;
+  margin-bottom: 20px;
+  border-radius: 12px;
+
+} */
+
+.user-details {
+  margin-bottom: 20px;
+}
+
+.user-details p {
+  font-size: 16px;
+  color: var(--text-color);
+}
+
+.quiz-performance {
+  text-align: left;
+}
+
+.quiz-performance h3 {
+  font-size: 20px;
+  color: var(--text-color);
+  margin-bottom: 15px;
+}
+
+.quiz-performance p {
+  font-size: 16px;
+  color: var(--text-color);
+  margin: 10px 0;
+}
